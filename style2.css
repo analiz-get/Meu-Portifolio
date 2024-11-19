@@ -1,0 +1,285 @@
+body{
+    color: #000000;
+    background-color: #000000;
+}
+
+.body0{
+    background-color: #000000;
+}
+.body1 {
+    background-color: #333;
+    color: #ffffff;
+   height: 100%;
+    text-align: left;
+    margin: 40px;
+    padding: 0;
+   
+    box-sizing: 90px;
+   
+}
+
+
+h1 {
+    font-family: 'Bacasime Antique', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-left: 20px;
+}
+  
+
+
+
+
+h1 {
+    font-size: 3em;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.container {
+   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 90px;
+    margin-top: -7%;
+    
+}
+.box {
+    background-color: #ecdaa8;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    box-sizing: border-box;
+    border: 7px solid #333; 
+    border-style:double;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .box a{
+    color: #141414;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 1rem;
+    font-weight: 530;
+    margin: 0 auto;
+    display: flex;
+    text-decoration: none;
+
+}
+
+
+.box{
+    transition: all 0.7s;
+    cursor: pointer;
+}
+.box:hover{
+        -webkit-transform: scale(0.90);
+        transform: scale(1.15);
+        -webkit-filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, 0.454));
+        filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+}
+
+
+
+.box:nth-child(2), .box:nth-child(5), .box:nth-child(7), .box:nth-child(4) {
+    background-color: #fff9f3;
+}
+
+
+
+
+
+
+/*pagina sobre mim*/
+
+
+.body2 {
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    padding: 0;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+.fotosobremim{
+    background-color: #000000;
+    padding: 2px;
+    border: 8px solid #ffffff;
+    border-style: double;
+    display: flex;
+    align-items: center;
+    height: 90%;
+    width: 780%;
+    max-width: 1800px;
+}
+
+.fotosobremim .sorriso img{
+    min-width: 100%;
+    min-height: 100%;
+   width: 700px;
+   height: 500px;
+    
+}
+.textosobremim {
+    color: #d3d3d3;
+    margin-right: 20px;
+    max-width: 50%;
+}
+.textosobremim h1 {
+    font-size: 3em;
+    margin: 0;
+}
+.textosobremim p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    margin-left: 10px;
+}
+        
+
+.body3 {
+    font-family: 'Georgia', serif;
+    background-color: #f7f7f6;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.designs {
+    display: flex;
+    width: 1008px; 
+    background-color: #f2f0e0;
+    text-align: right ;
+    right: -0px;
+}
+
+  
+
+.designer, .designs {
+    flex: 1;
+    margin: 0 10px;
+}
+.designer {
+    background-color: #f1e8c3;
+    text-align: right;
+   width: 50%;
+   height: 90%;
+}
+.designer h1 {
+    font-size: 32px;
+    color: #c6b675;
+   margin-top: 40px;
+    text-align: left;
+}
+.designer .fundofoto img {
+    width: 208px;
+    height: 360px;
+    
+    max-width: 30000px;
+    border: 8px solid #e3c852;
+    border-style: groove;
+}
+.designs {
+    text-align: center;
+    position: relative;
+
+}
+
+
+.designs h1 {
+    font-size: 34px;
+    color: #72716e;
+    margin-bottom: 60px;
+    text-align:right;
+    right: -70;
+    
+}
+
+
+
+.carousel{
+    width: 700px;
+    text-align: right ;
+    right: -240px;
+    border: 9px #e3c852;
+    border-style: groove;
+}
+
+.body4 {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+.container4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #c8c8c8;
+    
+}
+
+.minhafoto{
+    background-color:#a3a3a3;
+    width: 270px;
+    height: 370px;
+   
+}
+.fotoana img{
+   
+    margin: 1px;
+    padding: 20px;
+    
+}
+
+
+
+
+
+.right {
+    
+   width: 90%;
+    background-color:#f7f7f6;
+    margin: 100px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.right {
+    text-align: center;
+}
+.right h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+.contact-item {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+.contact-item i {
+    font-size: 36px;
+    margin-right: 20px;
+}
+.contact-item div {
+    text-align: left;
+}
+
+.contatos{
+    color: rgb(0, 0, 0);
+}
+
+.nav{
+    background-color: #141414;
+}
+
+.nav-item a {
+    color: #ffffff;
+}
